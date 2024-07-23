@@ -1,7 +1,7 @@
 import { Carousel } from "../cmps/Home/Carousel";
 
 export function Home() {
-    return (
+  return (
     <div className=" h-[calc(100vh-5em)] w-screen flex justify-center items-center ">
       <div className="hero grid grid-cols-2  w-[90%] h-[90%] bg-cyan-50 justify-between">
         <div className="text-content col-start-1 col-end-1 flex flex-col m-14">
@@ -12,8 +12,8 @@ export function Home() {
             <p>backwards and Now hands are wanted here.</p>
           </div>
         </div>
-        <div className="container h-full w-full">
+        <Carousel gridClasses={'col-start-2 col-end-2'}/>
       </div>
-        </div>
-    )
+    </div>
+  )
 }

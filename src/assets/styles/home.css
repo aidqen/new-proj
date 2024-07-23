@@ -1,0 +1,29 @@
+.slider-container>* {
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+    border-radius: 1em;
+}
+
+
+
+.slider-container {
+    width: 30em;
+    height:20em;
+}
+
+.slider-container img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+
+button.slick-prev,
+button.slick-next {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    z-index: 1;
+}

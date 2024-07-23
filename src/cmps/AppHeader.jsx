@@ -2,8 +2,8 @@ import { NavLink } from 'react-router-dom'
 
 export function AppHeader() {
   return (
-    <header className="app-header flex flex-row items-center w-screen h-20 font-bold">
-      <h1 className="w-20 ms-10">Team Arc</h1>
+    <header className="app-header flex flex-row items-center w-screen h-20 font-bold relative">
+      <h1 className="ms-10 text-xl w-40 absolute">Team Arc</h1>
       <nav className="w-full font-sans">
         <ul className="flex flex-row w-full justify-center gap-20">
           <li>
